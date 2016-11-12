@@ -9,7 +9,7 @@ var schedule = require('node-schedule');
 var rule = new schedule.RecurrenceRule();
 rule.seconds = 10;
 
-login({email: "pureawesomenessrocks@gmail.com", password: "0yster0meleJ"}, function callback (err, api) {
+login({email: "litreesofgreaterwashington@gmail.com", password: "davidarthi"}, function callback (err, api) {
   var j = schedule.scheduleJob(rule, function(){
 
     if(err)
